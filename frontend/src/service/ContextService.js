@@ -19,7 +19,7 @@ const ContextService = ({ children }) => {
 
     // port 
     // const port = `http://localhost:1000/tasks`
-    const port = `${process.env.REACT_APP_BACKEND_URL}`
+    const port = `${process.env.REACT_APP_BACKEND_URL}/tasks`
     console.log(port)
 
 
